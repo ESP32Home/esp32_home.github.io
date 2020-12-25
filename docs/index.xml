@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on ZDoc</title>
+    <link>https://esp32home.github.io/docs/</link>
+    <description>Recent content in Docs on ZDoc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 25 Dec 2020 00:00:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://esp32home.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Arduino</title>
+        <link>https://esp32home.github.io/docs/arduino/</link>
+        <pubDate>Fri, 25 Dec 2020 00:00:00 +0900</pubDate>
+        
+        <guid>https://esp32home.github.io/docs/arduino/</guid>
+        <description>Arduino ESP32  platform package as an idf component  </description>
+      </item>
+      
+      <item>
+        <title>Datasheets</title>
+        <link>https://esp32home.github.io/docs/datasheets/</link>
+        <pubDate>Fri, 25 Dec 2020 00:00:00 +0900</pubDate>
+        
+        <guid>https://esp32home.github.io/docs/datasheets/</guid>
+        <description>ESP32 Datasheet  Datasheet  Blockdiagram Memory Map Power Modes WROOM Datasheet  ESP32-WROOM-32 Datasheet  Pin Layout ESP32-S2  ESP32-S2 Datasheet  </description>
+      </item>
+      
+      <item>
+        <title>ESP-IDF</title>
+        <link>https://esp32home.github.io/docs/esp_idf/</link>
+        <pubDate>Fri, 25 Dec 2020 00:00:00 +0900</pubDate>
+        
+        <guid>https://esp32home.github.io/docs/esp_idf/</guid>
+        <description>Frameworks  esp-idf esp-iot-solution mesh-dev-framework mdf prog guide  https://github.com/espressif/arduino-esp32/blob/master/docs/esp-idf_component.md</description>
+      </item>
+      
+      <item>
+        <title>JTAG Debugger</title>
+        <link>https://esp32home.github.io/docs/debugger/</link>
+        <pubDate>Fri, 25 Dec 2020 00:00:00 +0900</pubDate>
+        
+        <guid>https://esp32home.github.io/docs/debugger/</guid>
+        <description>PlatformIO  ESP-Prog  Pinout Connection Official Guide  Espressif - ESP Prog Guide  </description>
+      </item>
+      
+    
+  </channel>
+</rss>
