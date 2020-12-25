@@ -1,8 +1,9 @@
 ---
 title: "Docs"
-description: "test post index"
-date: 2020-01-11T14:09:21+09:00
+description: "Datasheets and ref manuals"
+date: 2020-12-25T00:00:00+09:00
+collapsible: true
 draft: false
 ---
 
-Docs page.
+Datasheets and reference manuals

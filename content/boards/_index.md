@@ -1,6 +1,6 @@
 ---
-title: Blog
-description: Blog list page
+title: ESP32 Boards
+description: Boards list page
 blogHeaderType: img
 header:
   - type: text
