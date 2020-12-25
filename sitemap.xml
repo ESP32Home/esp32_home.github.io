@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://esp32home.github.io/docs/arduino/</loc>
+    <loc>https://esp32home.github.io/docs/01-datasheets/</loc>
     <lastmod>2020-12-25T00:00:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://esp32home.github.io/docs/datasheets/</loc>
+    <loc>https://esp32home.github.io/boards/01-ttgo-t-display/</loc>
+    <lastmod>2020-12-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://esp32home.github.io/docs/02-arduino/</loc>
+    <lastmod>2020-12-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://esp32home.github.io/boards/02-ttgo-t5-epaper/</loc>
+    <lastmod>2020-12-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://esp32home.github.io/docs/03-esp_idf/</loc>
+    <lastmod>2020-12-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://esp32home.github.io/docs/04-debugger/</loc>
     <lastmod>2020-12-25T00:00:00+09:00</lastmod>
   </url>
   
@@ -18,22 +38,13 @@
   </url>
   
   <url>
-    <loc>https://esp32home.github.io/docs/esp_idf/</loc>
-    <lastmod>2020-12-25T00:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://esp32home.github.io/docs/debugger/</loc>
+    <loc>https://esp32home.github.io/boards/</loc>
     <lastmod>2020-12-25T00:00:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://esp32home.github.io/</loc>
     <lastmod>2020-01-26T04:15:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://esp32home.github.io/boards/</loc>
   </url>
   
 </urlset>

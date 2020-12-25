@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ESP32 Boards – ZDoc</title>
+    <title>Datasheets – ZDoc</title>
     
 
 
@@ -30,7 +30,7 @@
     
     var baseurl = JSON.parse("\"https://esp32home.github.io\"");
     
-    var permalink = JSON.parse("\"https://esp32home.github.io/boards/\"");
+    var permalink = JSON.parse("\"https://esp32home.github.io/docs/01-datasheets/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1072,22 +1072,21 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://esp32home.github.io/boards/index.xml">
-<meta name="description" content="Boards list page" />
+    <meta name="description" content="Official reference documents" />
 <meta name="keywords" content="">
 <meta name="created" content="2020-12-25T00:00:00&#43;0900">
 <meta name="modified" content="2020-12-25T00:00:00&#43;0900">
 
 
 <meta property="og:site_name" content="ZDoc">
-<meta property="og:title" content="ESP32 Boards">
-<meta property="og:url" content="https://esp32home.github.io/boards/">
-<meta property="og:type" content="website">
+<meta property="og:title" content="Datasheets">
+<meta property="og:url" content="https://esp32home.github.io/docs/01-datasheets/">
+<meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.79.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://esp32home.github.io/boards/">
+<link rel="canonical" href="https://esp32home.github.io/docs/01-datasheets/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1111,9 +1110,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "https://esp32home.github.io/boards/",
-    "name": "ESP32 Boards",
-    "description": "Boards list page",
+    "headline": "Datasheets",
+    "datePublished": "2020-12-25T00:00:00+09:00",
+    "dateModified": "2020-12-25T00:00:00+09:00",
+    "url" : "https://esp32home.github.io/docs/01-datasheets/",
+    "description": "Official reference documents",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://esp32home.github.io"
@@ -1162,7 +1163,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      ESP32 Boards
+      Datasheets
     
   </h6>
   <ul>
@@ -1184,9 +1185,9 @@
   
   
   
-  <li class="">
-    <a href="https://esp32home.github.io/boards/01-ttgo-t-display/"
-      class="menu__title ">TTGO T-Display</a>
+  <li class="active">
+    <a href="https://esp32home.github.io/docs/01-datasheets/"
+      class="menu__title active">Datasheets</a>
   </li>
   
 
@@ -1208,8 +1209,54 @@
   
   
   <li class="">
-    <a href="https://esp32home.github.io/boards/02-ttgo-t5-epaper/"
-      class="menu__title ">TTGO T5-EPaper</a>
+    <a href="https://esp32home.github.io/docs/02-arduino/"
+      class="menu__title ">Arduino</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://esp32home.github.io/docs/03-esp_idf/"
+      class="menu__title ">ESP-IDF</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://esp32home.github.io/docs/04-debugger/"
+      class="menu__title ">JTAG Debugger</a>
   </li>
   
 
@@ -1304,7 +1351,7 @@
           <span id="navMenuMobile" class="hide">
   <button id="navCollapseBtn" class="navbar__dropdown--title" aria-label="Section Menu" data-dir="ltr">
     
-      boards
+      docs
     
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z"/></svg>
   </button>
@@ -1316,16 +1363,16 @@
   
   
   
-  <li class="navbar__menu--mobile-item ">
-    <a href="/docs" class="">Docs</a>
+  <li class="navbar__menu--mobile-item active">
+    <a href="/docs" class="active">Docs</a>
   </li>
 
   
   
   
   
-  <li class="navbar__menu--mobile-item active">
-    <a href="/boards" class="active">Boards</a>
+  <li class="navbar__menu--mobile-item ">
+    <a href="/boards" class="">Boards</a>
   </li>
 
   </ul>
@@ -1338,7 +1385,7 @@
   
   
   
-  <li class="navbar__menu--item ">
+  <li class="navbar__menu--item active">
     <a href="/docs" data-bgimg="false">Docs</a>
   </li>
 
@@ -1346,7 +1393,7 @@
   
   
   
-  <li class="navbar__menu--item active">
+  <li class="navbar__menu--item ">
     <a href="/boards" data-bgimg="false">Boards</a>
   </li>
 
@@ -1498,7 +1545,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">ESP32 Boards</h2>
+        <h2 class="title">Datasheets</h2>
       </div>
     </div>
   </div>
@@ -1514,6 +1561,8 @@
   
   
   
+  
+  
   <li >
     
       <a href="https://esp32home.github.io/" class="capitalize">ESP32 Home</a>
@@ -1521,9 +1570,16 @@
   </li>
   
   
+  <li >
+    
+      <a href="https://esp32home.github.io/docs/" class="capitalize">Docs</a>
+    
+  </li>
+  
+  
   <li  class="is-active" >
     
-      <span>ESP32 Boards</span>
+      <span>Datasheets</span>
     
   </li>
   
@@ -1556,16 +1612,16 @@
 
         
   
-  
+
 <div class="mid">
   <div class="divider">
-
-    <nav id="list-menu" class="l" data-dir="ltr">
+    
+    <nav id="single-menu" class="l" data-dir="ltr">
       
         <div class="menu">
   <h6 class="menu__label">
     
-      ESP32 Boards
+      Datasheets
     
   </h6>
   <ul>
@@ -1587,9 +1643,9 @@
   
   
   
-  <li class="">
-    <a href="https://esp32home.github.io/boards/01-ttgo-t-display/"
-      class="menu__title ">TTGO T-Display</a>
+  <li class="active">
+    <a href="https://esp32home.github.io/docs/01-datasheets/"
+      class="menu__title active">Datasheets</a>
   </li>
   
 
@@ -1611,8 +1667,54 @@
   
   
   <li class="">
-    <a href="https://esp32home.github.io/boards/02-ttgo-t5-epaper/"
-      class="menu__title ">TTGO T5-EPaper</a>
+    <a href="https://esp32home.github.io/docs/02-arduino/"
+      class="menu__title ">Arduino</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://esp32home.github.io/docs/03-esp_idf/"
+      class="menu__title ">ESP-IDF</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://esp32home.github.io/docs/04-debugger/"
+      class="menu__title ">JTAG Debugger</a>
   </li>
   
 
@@ -1621,28 +1723,6 @@
 </div>
 
 
-
-<script>
-  var menuTitle = document.querySelectorAll('.menu__title');
-  var modal = document.getElementById("myModal");
-  var drawer = document.getElementById('myDrawer');
-
-  var closeDrawer = function () {
-    setTimeout(function () {
-      modal.style.opacity = 0;
-      drawer.style.left = '-100%';
-      modal.style.left = '-100%';
-    }, 250);
-  }
-
-  menuTitle ? 
-  menuTitle.forEach(function(elem) {
-    elem.onclick = function() {
-      closeDrawer();
-      localStorage.setItem('isDrawerOpen', 'false');
-    }
-  }) : null;
-</script>
       
     </nav>
 
@@ -1651,38 +1731,88 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <h2 id="esp32">ESP32</h2>
+<h3 id="datasheet">Datasheet</h3>
+<ul>
+<li><a href="https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" target="_blank">Datasheet</a></li>
+</ul>
+<h4 id="blockdiagram">Blockdiagram</h4>
+<p><p class="md__image">
+  <img src="/images/esp32_blockdiagram.png" alt="img"  />
+</p></p>
+<h4 id="memory-map">Memory Map</h4>
+<p><p class="md__image">
+  <img src="/images/esp32_memory_map.png" alt="img"  />
+</p></p>
+<h4 id="power-modes">Power Modes</h4>
+<p><p class="md__image">
+  <img src="/images/esp32_power_modes.png" alt="power"  />
+</p></p>
+<h3 id="wroom-datasheet">WROOM Datasheet</h3>
+<ul>
+<li><a href="https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" target="_blank">ESP32-WROOM-32 Datasheet</a></li>
+</ul>
+<h4 id="pin-layout">Pin Layout</h4>
+<p><p class="md__image">
+  <img src="/images/esp32_wroom_pin_layout.png" alt="img"  />
+</p></p>
+<h2 id="esp32-s2">ESP32-S2</h2>
+<ul>
+<li><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf" target="_blank">ESP32-S2 Datasheet</a></li>
+</ul>
+
   </article>
 </div>
       
-        
-<div class="list-section">
+<div class="grow"></div>
+<nav class="pagination-single">
   
-    <div class="list-section__item">
-      <a href="https://esp32home.github.io/boards/01-ttgo-t-display/" class="list-section__item--link">
-        TTGO T-Display
+    
+    <div class="grow"></div>
+    
+      <a href="https://esp32home.github.io/docs/02-arduino/" title="Arduino" class="pagination-single__right">
+        <div class="pagination-single__left-title">Arduino</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
       </a>
-      <div class="list-section__item--desc">
-        Small dev kit with O-LED display
-      </div>
-    </div>
+    
   
-    <div class="list-section__item">
-      <a href="https://esp32home.github.io/boards/02-ttgo-t5-epaper/" class="list-section__item--link">
-        TTGO T5-EPaper
-      </a>
-      <div class="list-section__item--desc">
-        ESP32 with epaper display
-      </div>
-    </div>
-  
-  </div>
-      
-      
+</nav>
 
+
+      
     </article>
-
+    
     <section id="list-side" class="r" data-dir="ltr">
+      
+        <div class="toc">
+  <h6 class="toc__label">What&#39;s on this Page</h6>
+  <div class="toc__body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#esp32">ESP32</a>
+      <ul>
+        <li><a href="#datasheet">Datasheet</a>
+          <ul>
+            <li><a href="#blockdiagram">Blockdiagram</a></li>
+            <li><a href="#memory-map">Memory Map</a></li>
+            <li><a href="#power-modes">Power Modes</a></li>
+          </ul>
+        </li>
+        <li><a href="#wroom-datasheet">WROOM Datasheet</a>
+          <ul>
+            <li><a href="#pin-layout">Pin Layout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#esp32-s2">ESP32-S2</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+      
     </section>
 
   </div>
@@ -1844,7 +1974,7 @@
     
     if (lib && lib.includes('flowchartjs')) {
       
-      var options = JSON.parse("null");
+      var options = JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");
       var jsonContent = null;
 
       var flowchartPrefix = "language-flowchart";
@@ -1934,66 +2064,65 @@
 </script>
 
 <script>
-  var listMenu = document.getElementById('list-menu');
-  var listMain = document.getElementById('list-main');
   var listSide = document.getElementById('list-side');
+  var listMain = document.getElementById('list-main');
+  var singleMenu = document.getElementById('single-menu');
   var switchElem = document.querySelector('.switch');
   var wideViewAsDefault = JSON.parse("null");
-
+  
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';  
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
         listSide.className = 'r';
         listMain.className = 'm';
+        singleMenu.className = 'l';
       }
     },
   }).register("screen and (max-width:960px)", {
     match: function () {
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
       listMain.className = 'mr';
       listSide.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
-      
       switchElem.className = 'switch';
     },
   }).register("screen and (max-width:600px)", {
     match: function () {
-      listMenu.className = 'hide';
-      listMain.className = 'lmr';
       listSide.className = 'hide';
+      listMain.className = 'lmr';
+      singleMenu.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
-      listMenu.className = 'l';
-      listMain.className = 'mr';
       listSide.className = 'hide';
+      listMain.className = 'mr';
+      singleMenu.className = 'l';
       switchElem.className = 'hide';
     },
   });
